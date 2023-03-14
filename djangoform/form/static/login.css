@@ -1,0 +1,58 @@
+/* Estilos para la barra de navegación */
+body, h1, label {
+    font-family: Arial, sans-serif;
+  }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #67afeb; /* Azul oscuro */
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Estilos para la imagen en la barra */
+  .navbar img {
+    height: 70px;
+    margin-left: 20px;
+  }
+  
+  /* Estilos para el título */
+  
+  /* Estilos para el formulario de inicio de sesión */
+  .login-form {
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Gris claro */
+    border-radius: 10px;
+  }
+  
+  /* Estilos para los campos del formulario */
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de inicio de sesión */
+  .login-form button {
+    background-color: #67afeb; /* Azul claro */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em; 
+  }
+  
+  /* Estilos para el botón de inicio de sesión al pasar el cursor encima */
+  .login-form button:hover {
+    background-color: #155181; /* Azul más claro */
+  }
+  

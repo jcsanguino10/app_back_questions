@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #67afeb;
+}
+
+#logo a {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: auto;
+    height: 50;
+}
+
+/* Nav */
+#nav {
+    background-color: rgb(29, 113, 209);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+#nav nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav nav ul li a:hover {
+    background-color: #1769aa;
+}
+
+/* Sección hero */
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #9ad0fc;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#hero a {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#hero a:hover {
+    background-color: #1769aa;
+}
+
+#Courses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #Courses h2 {
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #Courses p {
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #Courses div {
+    width: 45%;
+  }
+
+/* Encuesta */
+#survey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.survey {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+}
+
+.survey p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.survey input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #2196f3;
+    transition: all 0.3s ease-in-out;
+}
+
+.survey input[type="radio"]:hover {
+    border-color: #1769aa;
+}
+
+.survey input[type="submit"] {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.survey input[type="submit"]:hover {
+    background-color: #1769aa;
+}
+
+footer {
+    background-color: #67afeb;
+    color: #fff;
+    padding: 30px;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
